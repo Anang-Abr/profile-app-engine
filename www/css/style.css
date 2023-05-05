@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+a:visited{
+    color:inherit;
+}
+
+body{
+    background-color: #F6F1F1;
+}
+
+
+nav{
+    background-color: #dd4e41;
+    color: #F6F1F1;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1rem 10rem;
+    text-align: right;
+}
+
+.container{
+    height: 100vh;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    padding: 2rem;
+    padding-top: 200px;
+    align-items: center;
+}
+
+.about-me-profile{
+    max-width: 200px;
+    width: 200px;
+}
+
+.about-me-desc{
+    line-height: 2rem;
+    width: 40%;
+}
+
+.about-me-desc>h2{
+    font-size: xx-large;
+    margin-bottom: 1rem;
+}
+
+.about-me-desc>p{
+    font-size: x-large;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social ul{
+    color: #F6F1F1;
+    display: flex;
+    width: fit-content;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    list-style-type: none;
+    gap: 3rem;
+    font-size:38px;
+    justify-content: center;
+    background-color: #dd4e41;
+}
+
